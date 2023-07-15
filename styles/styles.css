@@ -1,0 +1,13 @@
+body {
+    padding: 50px 100px;
+    font-family: sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.item {
+    border: 1px solid #000;
+    background-color: green;
+    color: #fff;
+    padding: 15px;
+}
