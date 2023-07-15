@@ -6,13 +6,15 @@ body {
 }
 
 .item {
-    border: 1px solid #000;
-    background-color: green;
+    border: 2px solid #000;
+    background-color: rgb(106, 167, 106);
     color: #fff;
     padding: 15px;
 }
 
 .box {
     display: grid;
-    grid-template-columns: 1fr 2fr 3fr 4fr;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: 50px 100px 150px 200px;
+    gap: 30px 15px;
 }
