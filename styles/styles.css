@@ -14,9 +14,9 @@ body {
 
 .box {
     display: grid;
-    grid-template-columns: [one] 400px [two] 300px [item3] 350px [item4];
-    grid-template-rows: 50px 100px 150px;
-    grid-auto-rows: 125px;
+    grid-template-columns: [one] 400px [two] 400px [item3] 400px [item4] minmax(200px, 500px);
+    grid-template-rows: 100px 200px 150px;
+    grid-auto-columns: 300px;
     grid-auto-flow: dense;
     gap: 15px 30px;
 
@@ -27,6 +27,7 @@ body {
     grid-row-start: span 2; */
     grid-row: 1/ span 2;
     grid-column: item3/one;
+    align-self: center;
 }
 
 .item-2 {
@@ -35,6 +36,7 @@ body {
 
 .item-3 {
     grid-column: 2/4;
+    justify-self: left;
 }
 
 /* .wrapper {
